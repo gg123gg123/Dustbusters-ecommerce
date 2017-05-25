@@ -1,0 +1,112 @@
+
+
+body {
+    background: #333333;
+    
+}
+
+
+.navigation {
+    padding: 10px;
+}
+
+.navigation .logo {
+    width: auto;
+    background: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation .menu {
+    padding: 5px 5%;
+    text-align: center;
+}
+
+.navigation .menu .item {
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+
+.description {
+    width: 600;
+    height: 350;
+    line-height: 1em;
+    overflow: auto;
+    padding: 3px;
+    Text-align: left;
+    color: #ddd;
+}
+
+.banner {
+    width: auto;
+    height: 200;
+    padding: 1px;
+}
+
+.footer {
+    color: #ddd;
+    height: 40px;
+    margin-top: 40px;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+#homevideo{width: auto; padding: 10px; text-align: center;}
+.products {
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+
+.products img {
+    padding: 1px;
+    float: left;
+}
+
+.products .description {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    color: #ddd;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .register {
+				float: left;
+				width: 620px;
+				margin: 1px;
+                
+}
+ .login {
+				float: left;
+				width: 300px;
+				margin: 1px;
+              
+}
+.main { 
+               width: 1000px;
+               margin: auto;
+               color: #ddd;
+}
+
+tr{  
+    position:relative; 
+}
+
+th{
+    position:relative;
+}
+
+
