@@ -1,10 +1,11 @@
 <?php
 function connect(){
-    $host = "localhost";
-    $user = "dustbuster";
-    $pass = "pa$$";
-    $db = "dustbuster";
-    $conn = mysqli_connect($host, $user, $pass, $db);
+    $host = "dustbuster.cuu1evata1oa.eu-west-2.rds.amazonaws.com";
+    $user = "Dustbuster";
+    $pass = "835a6a3427!";
+    $db = "Dustbuster";
+    $port = "3306";
+    $conn = mysqli_connect($host, $user, $pass, $db, $port);
     
     return $conn;
 }
