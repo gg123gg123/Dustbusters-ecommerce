@@ -30,7 +30,7 @@
         <div class="banner"><img src="img/Vacuum%20banner.jpg" />
         </div>
         <center>
-    <div class="footer">Created By:Alex Nicot <a href="mailto:alex_nicot@me.com">Alex_Nicot@me.com</a>
+    <div class="footer">Created By:Alex 
         </div></center>
 
 </body>
