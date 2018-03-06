@@ -1,8 +1,8 @@
 <?php
 function connect(){
-    $host = "dustbuster.cuu1evata1oa.eu-west-2.rds.amazonaws.com";
-    $user = "Dustbuster";
-    $pass = "835a6a3427!";
+    $host = "dustbustertest.cuu1evata1oa.eu-west-2.rds.amazonaws.com";
+    $user = "Alex";
+    $pass = "Dustbuster1337";
     $db = "Dustbuster";
     $port = "3306";
     $conn = mysqli_connect($host, $user, $pass, $db, $port);
@@ -49,6 +49,7 @@ function display_products() {
          <th>Prodcut Description</th>
          <th>Image</th>
          <th>Price</th>
+         <th>Stock</th>
          <th>Order</th> 
          </tr>
         <font color=#ddd>";
@@ -58,6 +59,7 @@ function display_products() {
        <td align='left'>$row[description]</td>
        <td><img src='$row[imagepath]' width='250px' height='250px'/></td>
        <td>$row[price]</td>
+       <td>$row[stock]</td>
        <td>
        <form action='cart.php' method='post'>
 
@@ -144,7 +146,9 @@ function order(){
      
     foreach ($_SESSION['basket'] as $key=>$value) {
         $query = "INSERT INTO db_orderitems VALUES($oid, $key, $value)";
+        $query2 = "UPDATE db_product SET stock = stock - $value  WHERE pid = $key";
         mysqli_query($conn, $query);
+        mysqli_query($conn, $query2);
     } 
     unset($_SESSION['basket']); 
     mysqli_close($conn);
