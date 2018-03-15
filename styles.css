@@ -2,7 +2,7 @@
 
 body {
     background: #333333;
-    
+
 }
 
 
@@ -54,7 +54,6 @@ body {
     bottom: 0;
 }
 
-
 .container {
     margin: 0 auto;
     width: 1000px;
@@ -87,26 +86,32 @@ body {
 				float: left;
 				width: 620px;
 				margin: 1px;
-                
+
+}
+#btn {
+  float: left;
+  width: 100px;
+  margin: 1px;
+  font-size: 16px;
+   display: block;
+   background-color: #008CBA;
 }
  .login {
 				float: left;
 				width: 300px;
 				margin: 1px;
-              
+
 }
-.main { 
+.main {
                width: 1000px;
                margin: auto;
                color: #ddd;
 }
 
-tr{  
-    position:relative; 
+tr{
+    position:relative;
 }
 
 th{
     position:relative;
 }
-
-
