@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
 
 
@@ -107,54 +104,53 @@
         </div> <!-- /.main-nav -->
     </header> <!-- /.site-header -->
 <body>
-
-    </header>
-    <div align="center">
-        <div class="description">
-            <p align="left">Hi, welcome to DustBusters A FAKE E-Commerce business commited to selling high quality vacuum cleaners. We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
-
-            <p align="left">We sell vacuums on behalf of the industrys leading innovators including Dyson,Vax and &quot;Henry Hoover&quot;. Dustbusters is a family run business who have been operating for nearly 10 years, We pride ourselves on our reputatation and belive that customer satisfaction is key so if you have any questions regarding the products for sale on our website dont hesitate to contact our award winning customer support.</p>
-
-            <p align="left">We have designed this new website to accomodate all users with simplicity and elegance, the navigation bar at the top can be used to access all of the web pages filled with usefull information.If you wish to purchase a vaccum simply sighn up using the registration page at the top thank you for taking the time to read our introduction and we hope you find the perfect vacuum and if you already have we thank you for your business and hope to see you in the future.
-            </p>
-        <div id="homevideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/oguKCHP7jNQ" frameborder="0" allowfullscreen></iframe></div>
+  <font color="#ddd">
+  <div class="main">
+      <div class="register">
+            <h2><p>
+               Login to your DustBusters account </p><h2>
+               </div>
+               <form action="reg.php" method="post">
+                 <font color="#000">
+                 <div class="register">
+            <p><label>Email address:</label><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
+                <p><label>Password:</label><input type="password" name="password" id="password"></p>
+                <p><input type="submit" id="btn2" value="Login"/></p>
+            </form>
         </div>
-        <div class="banner"><img src="img/Vacuum%20banner.jpg" />
-        </div>
-        <center>
-          <section></section>
 
-              <footer class="footer-distributed">
+        <section></section>
 
-                <div class="footer-right">
+        		<footer class="footer-distributed">
 
-                  <a href="#"><i class="fa fa-facebook" aria-label="Facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"aria-label="Twitter"></i></a>
-                  <a href="#"><i class="fa fa-linkedin"arialabel="Our Linkedin"></i></a>
-                  <a href="#"><i class="fa fa-github"aria-label="Our Github"></i></a>
+        			<div class="footer-right">
 
-                </div>
+        				<a href="#"><i class="fa fa-facebook"></i></a>
+        				<a href="#"><i class="fa fa-twitter"></i></a>
+        				<a href="#"><i class="fa fa-linkedin"></i></a>
+        				<a href="#"><i class="fa fa-github"></i></a>
 
-                <div class="footer-left">
+        			</div>
 
-                  <p class="footer-links">
-                    <a class="link-1" href="#">Home</a>
+        			<div class="footer-left">
 
-                    <a href="#">Blog</a>
+        				<p class="footer-links">
+        					<a class="link-1" href="#">Home</a>
 
-                    <a href="#">Pricing</a>
+        					<a href="#">Blog</a>
 
-                    <a href="#">About us</a>
+        					<a href="#">Pricing</a>
 
-                    <a href="#">Faq</a>
+        					<a href="#">About us</a>
 
-                    <a href="#">Contact us</a>
-                  </p>
+        					<a href="#">Faq</a>
 
-                  <p>DustBusters &copy; 2018</p>
-                </div>
+        					<a href="#">Contact us</a>
+        				</p>
 
-              </footer>
-            </body>
+        				<p>DustBusters &copy; 2018</p>
+        			</div>
 
-</html>
+        		</footer>
+          </body>
+        </html>

@@ -1,15 +1,14 @@
 <?php
 function connect(){
-    $host = "dustbuster.cuu1evata1oa.eu-west-2.rds.amazonaws.com";
-    $user = "Dustbuster";
-    $pass = "835a6a3427!";
+    $host = "dustbustertest.cuu1evata1oa.eu-west-2.rds.amazonaws.com";
+    $user = "Alex";
+    $pass = "Dustbuster1337";
     $db = "Dustbuster";
     $port = "3306";
     $conn = mysqli_connect($host, $user, $pass, $db, $port);
-    
+
     return $conn;
 }
-
 function register($email, $fname, $sname, $pcode, $pass){
     $conn = connect();
     $pass = md5($_POST['pass']);
@@ -18,8 +17,6 @@ function register($email, $fname, $sname, $pcode, $pass){
     mysqli_close($conn);
     header('Location:index.php');
 }
-
-
 function login($email, $pass){
     $conn = connect();
     $pass = md5($_POST['pass']);
@@ -28,7 +25,7 @@ function login($email, $pass){
     mysqli_close($conn);
     if ( mysqli_num_rows($result)===1  ){
         session_start();
-        $_SESSION['user']=$email;      
+        $_SESSION['user']=$email;
         header('Location:index.php');
     }else {
         $msg = "The username/password combination supplied is incorrect Please try again.";
@@ -36,42 +33,39 @@ function login($email, $pass){
             alert('$msg');
             window.location = 'register.php';
             </script>";
-    } 
+    }
 }
-
-
-function display_products() { 
+function display_products() {
  $conn = connect();
     $query = "SELECT * FROM db_product";
     $results = mysqli_query($conn, $query);
     echo "<table><thead align='left'><tr align='left'>
-         <th>Product Name</th> 
+         <th>Product Name</th>
          <th>Prodcut Description</th>
          <th>Image</th>
          <th>Price</th>
-         <th>Order</th> 
+         <th>Stock</th>
+         <th>Order</th>
          </tr>
         <font color=#ddd>";
     while ( $row = mysqli_fetch_array($results) )
-    { echo "<tr align='left'> 
+    { echo "<tr align='left'>
        <td align='left'>$row[name]</td>
        <td align='left'>$row[description]</td>
        <td><img src='$row[imagepath]' width='250px' height='250px'/></td>
        <td>$row[price]</td>
+       <td>$row[stock]</td>
        <td>
        <form action='cart.php' method='post'>
-
 <input type='submit' value='Add to basket' name='$row[pid]' />
-
             </form>
-            
+
             </td>
             </tr>";
     }
     echo "</table>";
-    
-}
 
+}
 function add_to_basket($pid){
     session_start();
     if (  isset($_SESSION['basket'])  ) {
@@ -80,13 +74,12 @@ function add_to_basket($pid){
         }else {
             $_SESSION['basket'][$pid]=1;
         }
-        
+
     }else {
         $_SESSION['basket'] = array($pid => 1);
     }
     header("Location: products.php");
 }
-
 function display_basket(){
     if ( !isset($_SESSION["basket"]) ){
         echo "<p>Your basket is empty.</p>";
@@ -110,7 +103,6 @@ function display_basket(){
             <td>$row[price]</td>
             <td>". number_format($value*$row['price'], 2, '.', '')."</td>
             <td><form action='remove.php?pid=".$key."' method='post'><input type='submit' value='Remove' /></form></td>
-
             </tr>";
         $total = $total + $value*$row['price'];
     }
@@ -126,7 +118,6 @@ function display_basket(){
         </tr>
         </table>";
 }
-
 function order(){
     session_start();
     if ( !isset($_SESSION["user"]) ){
@@ -141,16 +132,17 @@ function order(){
     $query = "INSERT INTO db_order VALUES(NULL, '$_SESSION[user]')";
     mysqli_query($conn, $query);
     $oid = mysqli_insert_id($conn);
-     
+
     foreach ($_SESSION['basket'] as $key=>$value) {
         $query = "INSERT INTO db_orderitems VALUES($oid, $key, $value)";
+        $query2 = "UPDATE db_product SET stock = stock - $value  WHERE pid = $key";
         mysqli_query($conn, $query);
-    } 
-    unset($_SESSION['basket']); 
+        mysqli_query($conn, $query2);
+    }
+    unset($_SESSION['basket']);
     mysqli_close($conn);
     header('Location:index.php');
     }
-
 function remove($pid){
 unset($_SESSION['basket'][$pid]);
 header("location: basket.php");

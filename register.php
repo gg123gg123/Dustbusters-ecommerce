@@ -124,33 +124,63 @@
             <p><label>First Name:</label><input type="text" name="fname"/></p>
             <p><label>Surname:</label> <input type="text" name="sname"/> </p>
             <p><label>Post Code:</label> <input type="text" name="pcode"/></p>
-            <p><<label>Password:</label>
-<input type="password" name="password" id="password">
-<span id="passwordmeter"><span></span></span>
-<span id="passwordmessage" aria-live="polite"></span>
+            <p><label>Password:</label>
+<input type="password" name="password" id="password"></p></div>
               <div aria-live="assertive" class="form-message form-message--error form-message--password field__error"
               id="form-message-password"><p class="form-message__text"><span><span>Something's missing</span><span>. </span><span>Please check and try again.</span></span>
-              </p></div>
+
               <div>
  <p><input id="btn" type="submit"  value="Register" /></p>
         </form>
         </div>
 
-           <div class="login">
-            <h2><p>
-               Login to your DustBusters account </p><h2>
-               </div>
-               <div class="login"
-            <form action="login.php" method="post">
-            <p><label>Email address:</label><input type="text" name="email"/></p>
-                <p><label>Password:</label><input type="password" name="pass"/></p>
-                <p><input type="submit" value="LogIn"/></p>
-            </form>
+      </div>
         </div>
-    </div>
+          </div>
 
-    <center>
-    <div class="footer">Add links
 
-</body>
+          <section></section>
+
+              <footer class="footer-distributed">
+
+                <div class="footer-right">
+
+                  <a href="#"><i class="fa fa-facebook" aria-label="Facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"aria-label="Twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"arialabel="Our Linkedin"></i></a>
+                  <a href="#"><i class="fa fa-github"aria-label="Our Github"></i></a>
+
+                </div>
+
+                <div class="footer-left">
+
+                  <p class="footer-links">
+                    <a class="link-1" href="#">Home</a>
+
+                    <a href="#">Blog</a>
+
+                    <a href="#">Pricing</a>
+
+                    <a href="#">About us</a>
+
+                    <a href="#">Faq</a>
+
+                    <a href="#">Contact us</a>
+                  </p>
+
+                  <p>DustBusters &copy; 2018</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-widget">
+                        <h3 class="widget-title">Our Newsletter</h3>
+                        <div class="newsletter">
+                            <form action="#" method="get">
+                                <p>Sign up to our newsletter to find out about the latest offers and products!</p>
+                                <input type="text" title="Email" name="email" placeholder="Your Email Here">
+                                <input type="submit" class="s-button" value="Submit" name="Submit">
+                            </form>
+                        </div> <!-- /.newsletter -->
+
+              </footer>
+            </body>
 </html>
