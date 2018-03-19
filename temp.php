@@ -127,22 +127,57 @@
         <form action="reg.php" method="post">
           <font color="#000">
           <div class="register">
-            <p><label>Email:</label><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
-            <p><label>First Name:</label><input type="text" name="fname"/></p>
-            <p><label>Surname:</label> <input type="text" name="sname"/> </p>
-            <p><label>Post Code:</label> <input type="text" name="pcode"/></p>
-            <p><label>Password:</label>
+            <p><label>Email:</label><br /><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
+            <p><label>First Name:</label><br /><input type="text" name="fname"/></p>
+            <p><label>Surname:</label> <br /><input type="text" name="sname"/> </p>
+            <p><label>Post Code:</label><br /> <input type="text" name="pcode"/></p>
+            <p><label>Password:</label><br />
 <input type="password" name="password" id="password"></p></div>
 
               <div class="subbtn">
  <p><input id="btn" type="submit"  value="Register" /></p>
         </form>
         </div>
-</div> 
+</div>
+<footer class="footer">
+    <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">FOIA</a><a class="footer-link" href="#">Privacy</a>
+    </div>
+    <div class="div-block-3"><a class="footer-link" href="#">Office of inspiector</a><a class="footer-link" href="#">Agency reports</a><a class="footer-link" href="#">FAQ</a>
+    </div>
+    <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Conctact</a>
+    </div>
+    <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
+    </div>
+    <div class="div-block-3 extended">
+      <h3 class="footer-title">Newsletter</h3>
+      <div class="w-form">
+        <form class="form" data-name="Email Form" id="email-form" name="email-form">
+          <input class="text-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Your e-mail" required="required" type="email">
+          <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Send">
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="paragraph-3">National Aeronautics and Space Administration
+        <br>2017 all rights reserved</p>
+    </div>
+    <a class="dribbble-link" href="#" target="_blank"><img src="img/newlogo.png" width="55"></a>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
         <script src="js/vendor/jquery-1.10.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="js/jquery.easing-1.3.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+</body>
 </html>
