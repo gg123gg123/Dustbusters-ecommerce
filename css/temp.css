@@ -1,0 +1,12 @@
+.top-header {
+  border-bottom: 1px solid #dddddd;
+}
+.container {
+  margin:0 auto;
+}
+.social-icons {
+  width: 100%;
+  text-align: center;
+  float: right !important;
+  border-bottom: 1px solid #dddddd;
+}

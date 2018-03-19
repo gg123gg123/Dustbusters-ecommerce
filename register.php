@@ -109,9 +109,6 @@
         </div> <!-- /.main-nav -->
     </header> <!-- /.site-header -->
 <body>
-
-
-
     <font color="#ddd">
     <div class="main">
         <div class="register">
@@ -126,8 +123,6 @@
             <p><label>Post Code:</label> <input type="text" name="pcode"/></p>
             <p><label>Password:</label>
 <input type="password" name="password" id="password"></p></div>
-              <div aria-live="assertive" class="form-message form-message--error form-message--password field__error"
-              id="form-message-password"><p class="form-message__text"><span><span>Something's missing</span><span>. </span><span>Please check and try again.</span></span>
 
               <div>
  <p><input id="btn" type="submit"  value="Register" /></p>
@@ -169,7 +164,7 @@
                   </p>
 
                   <p>DustBusters &copy; 2018</p>
-                </div>
+
                 <div class="col-md-4">
                     <div class="footer-widget">
                         <h3 class="widget-title">Our Newsletter</h3>
@@ -180,7 +175,7 @@
                                 <input type="submit" class="s-button" value="Submit" name="Submit">
                             </form>
                         </div> <!-- /.newsletter -->
-
+  </div>
               </footer>
             </body>
 </html>

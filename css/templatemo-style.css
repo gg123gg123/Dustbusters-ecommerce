@@ -1,4 +1,4 @@
-/* 
+/*
 Kool Store Template
 http://www.templatemo.com/preview/templatemo_428_kool_store
 */
@@ -109,7 +109,10 @@ form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="number"]:focus,
 form input[type="password"]:focus {
-  outline: none !important;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
 }
 form .button {
   background: #fff;
@@ -224,9 +227,7 @@ a {
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
-a:hover {
-  color: #e84c3d;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
@@ -239,7 +240,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 30px;
 }
 
 h3 {
@@ -675,6 +676,7 @@ ul.product-buttons li {
   display: inline-block;
   background-color: #2a80b9;
   color: white;
+  outline: thin dotted;
   font-size: 16px;
   font-weight: 600;
   width: 160px;
@@ -691,9 +693,9 @@ ul.product-buttons li {
   color: white;
 }
 
-form input[type="text"], 
-form input[type="email"], 
-form input[type="number"], 
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
 form input[type="password"],
 textarea {
   background: #fff;
@@ -742,6 +744,7 @@ textarea {
 
 .footer-widget {
   margin-bottom: 40px;
+  text-align: right;
 }
 
 .our-partner {
@@ -805,16 +808,23 @@ ul.follow-us li a i {
   margin-right: 25px;
 }
 
-.newsletter {
+ {
   padding: 20px;
-  background-color: #2a80b9;
+      background-color: #2a80b9;
+      width: 50%;
+      padding-right: 10px;
+      margin: 0 auto;
 }
-.newsletter p {
-  margin: 0 0 20px 0;
-  font-size: 14px;
-  text-align: left;
+ p {
+   padding: 20px;
+       background-color: #2a80b9;
+
+       width: 50%;
+       padding-right: 10px;
+       margin: 0 auto;
 }
-.newsletter input {
+
+ input {
   -webkit-backface-visibility: hidden;
   /* Chrome, Safari, Opera */
   backface-visibility: hidden;
@@ -824,7 +834,7 @@ ul.follow-us li a i {
   padding: 0 10px;
   width: 64%;
 }
-.newsletter input[type=submit] {
+ input[type=submit] {
   width: auto;
   background-color: #2d3e50;
   color: white;
@@ -851,7 +861,7 @@ ul.follow-us li a i {
 }
 
 /*------------------------------------------------------
-	RESPONSIVE STYLES 
+	RESPONSIVE STYLES
 --------------------------------------------------------*/
 @media (max-width: 991px) {
   ul.menu {
