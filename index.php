@@ -134,13 +134,13 @@
 
 
           <footer class="footer">
-              <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">Terms and conditions</a><a class="footer-link" href="#">Privacy</a>
+              <div class="div-block-3"><a class="footer-link" href="footer-pages/guarentee.html"">Our Guarentee</a><a class="footer-link" href="#"">Terms and Conditions</a><a class="footer-link" href="#">Privacy Policy</a>
               </div>
-              <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Sales reports</a><a class="footer-link" href="#">FAQ</a>
+              <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Delivery</a><a class="footer-link" href="#">FAQ</a>
               </div>
-              <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Contact us</a>
+              <div class="div-block-3"><a class="footer-link" href="#">Returns</a><a class="footer-link" href="#">Repairs</a><a class="footer-link" href="contact.html">Contact Us</a>
               </div>
-              <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
+              <div class="div-block-3"><a class="footer-link" href="https://twitter.com">Twitter</a><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a><a class="footer-link" href="https://www.facebook.com">Facebook</a>
               </div>
               <div class="div-block-3 extended">
                 <h3 class="footer-title">Newsletter</h3>
