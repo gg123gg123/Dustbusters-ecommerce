@@ -1689,7 +1689,13 @@ body {
   line-height: 1.6em;
   font-weight: 400;
 }
-
+.description{
+  font-family: courier-std, sans-serif;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 400;  
+}
 p {
   margin-bottom: 10px;
   font-family: courier-std, sans-serif;
