@@ -102,8 +102,8 @@
                                         <div class="col-md-6 col-sm-7">
                                             <div class="list-menu">
                                                 <ul>
-                                                    <li><a href="index.html">Shop</a></li>
-                                                    <li><a href="product-detail.html">Details</a></li>
+                                                    <li><a href="products.php">Shop</a></li>
+                                                    <li><a href="basket.php">My account</a></li>
                                                     <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div> <!-- /.list-menu -->
@@ -140,11 +140,11 @@
         </div>
 </div>
 <footer class="footer">
-    <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">FOIA</a><a class="footer-link" href="#">Privacy</a>
+    <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">Terms and conditions</a><a class="footer-link" href="#">Privacy</a>
     </div>
-    <div class="div-block-3"><a class="footer-link" href="#">Office of inspiector</a><a class="footer-link" href="#">Agency reports</a><a class="footer-link" href="#">FAQ</a>
+    <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Sales reports</a><a class="footer-link" href="#">FAQ</a>
     </div>
-    <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Conctact</a>
+    <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Contact us</a>
     </div>
     <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
     </div>
@@ -164,8 +164,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="paragraph-3">National Aeronautics and Space Administration
-        <br>2017 all rights reserved</p>
+
     </div>
     <a class="dribbble-link" href="#" target="_blank"><img src="img/newlogo.png" width="55"></a>
   </footer>
