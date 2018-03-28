@@ -111,20 +111,18 @@
                                             <div class="notification">
                                                 <span>Free Shipping on any order above $50</span>
                                             </div>
+
                                         </div> <!-- /.col-md-6 -->
                                     </div> <!-- /.row -->
                                 </div> <!-- /.container -->
                             </div> <!-- /.main-nav -->
+                            <div class="menu">
+                                <a class="item" href="basket.php">Basket</a>
+                            </div>
                         </header>
+
 <body>
 
-        <div class="menu">
-            <a class="item" href="index.php">Home</a>
-            <a class="item" href="products.php">Products</a>
-            <a class="item" href="register.php">Register</a>
-            <a class="item" href="basket.php">Basket</a>
-        </div>
-    </header>
 
 
     <div class="main">
