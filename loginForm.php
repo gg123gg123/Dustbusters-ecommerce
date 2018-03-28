@@ -1,6 +1,3 @@
-<?php
-session_start()
-?>
 <!DOCTYPE html>
 
 <html>
@@ -115,52 +112,53 @@ session_start()
                             </div> <!-- /.main-nav -->
 
                         </header>
+<body>
+  <font color="#ddd">
+  <div class="main">
+      <div class="register">
+            <h2><p>
+               Login to your DustBusters account </p><h2>
+               </div>
+               <form action="reg.php" method="post">
+                 <font color="#000">
+                 <div class="register">
+            <p><label>Email address:</label><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
+                <p><label>Password:</label><input type="password" name="password" id="password"></p>
+                <p><input type="submit" id="btn2" value="Login"/></p>
+            </form>
+        </div>
 
-    <div class="main">
-     <?php
-        include "website.php";
-        display_basket();
-        ?>
-            </div>
+        <section></section>
 
-            <footer class="footer">
-                <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">Terms and conditions</a><a class="footer-link" href="#">Privacy</a>
-                </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Sales reports</a><a class="footer-link" href="#">FAQ</a>
-                </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Contact us</a>
-                </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
-                </div>
-                <div class="div-block-3 extended">
-                  <h3 class="footer-title">Newsletter</h3>
-                  <div class="w-form">
-                    <form class="form" data-name="Email Form" id="email-form" name="email-form">
-                      <input class="text-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Your e-mail" required="required" type="email">
-                      <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Send">
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer-bottom">
+        		<footer class="footer-distributed">
 
-                </div>
-                <a class="dribbble-link" href="#" target="_blank"><img src="img/newlogo.png" width="55"></a>
-              </footer>
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-              <script src="js/webflow.js" type="text/javascript"></script>
-              <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+        			<div class="footer-right">
 
-                    <script src="js/vendor/jquery-1.10.1.min.js"></script>
-                    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-                    <script src="js/jquery.easing-1.3.js"></script>
-                    <script src="js/bootstrap.js"></script>
-                    <script src="js/plugins.js"></script>
-                    <script src="js/main.js"></script>
-            </body>
-            </html>
+        				<a href="#"><i aria-label="facebook" class="fa fa-facebook"></i></a>
+        				<a href="#"><i aria-label="twitter" class="fa fa-twitter"></i></a>
+        				<a href="#"><i aria-label="linkedin" class="fa fa-linkedin"></i></a>
+        				<a href="#"><i aria-label="github" class="fa fa-github"></i></a>
+        			</div>
+
+        			<div class="footer-left">
+
+        				<p class="footer-links">
+        					<a class="link-1" href="#">Home</a>
+
+        					<a href="#">Blog</a>
+
+        					<a href="#">Pricing</a>
+
+        					<a href="#">About us</a>
+
+        					<a href="#">Faq</a>
+
+        					<a href="#">Contact us</a>
+        				</p>
+
+        				<p>DustBusters &copy; 2018</p>
+        			</div>
+
+        		</footer>
+          </body>
+        </html>

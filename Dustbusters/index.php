@@ -4,10 +4,10 @@
 
 
 
- <html class="no-js">
+ <html class="no-js"> 
     <head>
     <!--
-    Mixed style sheets
+    Mixed style sheets 
     -->
         <meta charset="utf-8">
         <title> DustBusters - eCommerce Store</title>
@@ -18,9 +18,9 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
         <link rel="stylesheet" href="css/temp.css">
-        <html class="no-js">
+        <html class="no-js"> 
         <head>
-  <link rel="stylesheet" href="css/slick-theme.scss">
+
             <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="css/normalize.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -28,23 +28,24 @@
             <link rel="stylesheet" href="css/templatemo-misc.css">
             <link rel="stylesheet" href="css/templatemo-style.css">
 
+            <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         </head>
-		<div class="skipnav"><a href="#description">Skip to main content</a> <a href="#footer">Skip to footer</a></div>
+		<div class="skipnav"><a href="#description">Skip to main content</a> <a href="#footer">Skip to footer site map</a></div>
         <body>
-
+            
 
             <header class="site-header">
-
+			
                 <div class="top-header">
                     <div class="container">
                         <div class="row">
-
+                            
 							<div class="col-md-6 col-sm-6">
-
-
+							
+                                 
 								<div class="top-header-left">
-
+							
                                     <a href="register.php">Sign Up</a>
                                     <a href="loginForm.php">Log In</a>
                                 </div> <!-- /.top-header-left -->
@@ -84,7 +85,7 @@
                                                 <a href="#" onclick="myFunction()"aria-expanded="false" aria-label="menu ting" data-toggle="tab" id="toggle-menu" class="toggle-menu">
                                                     <i id="toggle-menu" class="fa fa-bars"></i>
                                                 </a>
-
+												
                                                 <ul class="menu" >
                                                     <li><a href="#">Home</a></li>
                                                     <li><a href="#">Catalogs</a></li>
@@ -119,22 +120,13 @@
                             </div> <!-- /.main-nav -->
                         </header>
 
-
-
-</body>
     <div align="center">
         <main  class="description" id="description">
-            <p align="left">Hi, welcome to DustBusters A FAKE E-Commerce business commited to selling high quality vacuum cleaners.
-               We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts
-               and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as
-               such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
+            <p align="left">Hi, welcome to DustBusters A FAKE E-Commerce business commited to selling high quality vacuum cleaners. We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
 
-            <p align="left">We sell vacuums on behalf of the industrys leading innovators including Dyson,Vax and &quot;Henry Hoover&quot;. Dustbusters is
-              a family run business who have been operating for nearly 10 years, We pride ourselves on our reputatation and belive that customer satisfaction
-              is key so if you have any questions regarding the products for sale on our website dont hesitate to contact our award winning customer support.</p>
+            <p align="left">We sell vacuums on behalf of the industrys leading innovators including Dyson,Vax and &quot;Henry Hoover&quot;. Dustbusters is a family run business who have been operating for nearly 10 years, We pride ourselves on our reputatation and belive that customer satisfaction is key so if you have any questions regarding the products for sale on our website dont hesitate to contact our award winning customer support.</p>
 
-  <p align="left">We have designed this new website to accomodate all users with simplicity and elegance, the navigation bar at the top can be used to access all
-    of the web pages filled with useful information.If you wish to purchase a vaccum simply sign up using the registration page at the top <br>
+            <p align="left">We have designed this new website to accomodate all users with simplicity and elegance, the navigation bar at the top can be used to access all of the web pages filled with useful information.If you wish to purchase a vaccum simply sign up using the registration page at the top <br>
 
               Thank you for taking the time to read our introduction and we hope you find the perfect vacuum and if you already have we thank you for your business and hope to see you in the future.
             </p>
@@ -183,9 +175,5 @@
                   <script src="js/bootstrap.js"></script>
                   <script src="js/plugins.js"></script>
                   <script src="js/main.js"></script>
-                  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-
 
           </html>
