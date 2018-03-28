@@ -19,10 +19,7 @@
 
         <link rel="stylesheet" href="css/temp.css">
         <html class="no-js">
-
         <head>
-
-
   <link rel="stylesheet" href="css/slick-theme.scss">
             <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="css/normalize.min.css">
@@ -93,7 +90,7 @@
                                                     <li><a href="#">Catalogs</a></li>
                                                     <li><a href="#">FAQs</a></li>
                                                     <li><a href="#">Policies</a></li>
-                                                    <li><a href="about.php">About</a></li>
+                                                    <li><a href="#">About</a></li>
                                                 </ul>
                                             </div> <!-- /.main-menu -->
                                         </div> <!-- /.col-md-8 -->
@@ -125,35 +122,22 @@
 
 
 </body>
+    <div align="center">
+        <main  class="description" id="description">
+            <p align="left">Hi, welcome to DustBusters A FAKE E-Commerce business commited to selling high quality vacuum cleaners.
+               We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts
+               and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as
+               such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
 
-        <script>
-        MySlides=new Array('img/Vacuum%20banner.jpg', 'img/vacuum_banner2.jpg', 'img/vacuum_banner3.jpg',)
+            <p align="left">We sell vacuums on behalf of the industrys leading innovators including Dyson,Vax and &quot;Henry Hoover&quot;. Dustbusters is
+              a family run business who have been operating for nearly 10 years, We pride ourselves on our reputatation and belive that customer satisfaction
+              is key so if you have any questions regarding the products for sale on our website dont hesitate to contact our award winning customer support.</p>
 
-        Slide=0
-        function ShowSlides(SlideNumber){
-        { Slide = Slide + SlideNumber
-        if (Slide>MySlides.length-1){
-          Slide=0
-        }
-        if (Slide<0) {
-          Slide=MySlides.length-1
-        }
-        document.getElementById('DisplaySlide').src=MySlides[Slide]
-        }
-        }
-        </script>
+  <p align="left">We have designed this new website to accomodate all users with simplicity and elegance, the navigation bar at the top can be used to access all
+    of the web pages filled with useful information.If you wish to purchase a vaccum simply sign up using the registration page at the top <br>
 
-      <article id="slider">
-        <a href="products.php" title="Slider"><img alt="offers" src="img/Vacuum%20banner.jpg" id="DisplaySlide" /></a>
-        <input id="left_button" type= "button" value="<<" onclick="ShowSlides(-1)" >
-        <input id="right_button" type= "button" value=">>" onclick="ShowSlides(1)" >
-        <br /><br />
-        <div id="homevideo"><iframe width="701" height="322" src="https://www.youtube.com/embed/oguKCHP7jNQ" frameborder="0" allowfullscreen></iframe></div>
-        </div>
-      </article>
-
-
-
+              Thank you for taking the time to read our introduction and we hope you find the perfect vacuum and if you already have we thank you for your business and hope to see you in the future.
+            </p>
 
 
 
@@ -186,13 +170,11 @@
               </div>
               <a class="dribbble-link" href="index.php" target="_blank"><img src="img/newlogo.png" width="55"></a>
             </footer>
-
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
             <script src="js/webflow.js" type="text/javascript"></script>
             <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
                   <script src="js/vendor/jquery-1.10.1.min.js"></script>
-
                   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
                   <script src="js/jquery.easing-1.3.js"></script>
                   <script src="js/bootstrap.js"></script>
