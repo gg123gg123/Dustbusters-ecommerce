@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -7,7 +6,9 @@
 
  <html class="no-js">
     <head>
-
+    <!--
+    Mixed style sheets
+    -->
         <meta charset="utf-8">
         <title> DustBusters - eCommerce Store</title>
 
@@ -17,9 +18,9 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
         <link rel="stylesheet" href="css/temp.css">
-        <html class="no-js"> <!--<![endif]-->
+        <html class="no-js">
         <head>
-
+  <link rel="stylesheet" href="css/slick-theme.scss">
             <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="css/normalize.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -27,19 +28,23 @@
             <link rel="stylesheet" href="css/templatemo-misc.css">
             <link rel="stylesheet" href="css/templatemo-style.css">
 
-            <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         </head>
+		<div class="skipnav"><a href="#c1">Skip to main content</a> <a href="#footer">Skip to footer</a></div>
         <body>
 
 
-
             <header class="site-header">
+
                 <div class="top-header">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="top-header-left">
+
+							<div class="col-md-6 col-sm-6">
+
+
+								<div class="top-header-left">
+
                                     <a href="register.php">Sign Up</a>
                                     <a href="loginForm.php">Log In</a>
                                 </div> <!-- /.top-header-left -->
@@ -47,10 +52,10 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-dribbble"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                        <li><a href="#" aria-label="Facebook" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" aria-label="Github" class="fa fa-dribbble"></a></li>
+                                        <li><a href="#" aria-label="Twitter" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" aria-label="Linked in" class="fa fa-linkedin"></a></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div> <!-- /.social-icons -->
@@ -75,11 +80,12 @@
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">
-                                            <div class="main-menu">
-                                                <a href="#" class="toggle-menu">
-                                                    <i class="fa fa-bars"></i>
+                                            <div class="main-menu" >
+                                                <a href="#" onclick="myFunction()"aria-expanded="false" aria-label="menu ting" data-toggle="tab" id="toggle-menu" class="toggle-menu">
+                                                    <i id="toggle-menu" class="fa fa-bars"></i>
                                                 </a>
-                                                <ul class="menu">
+
+                                                <ul class="menu" >
                                                     <li><a href="#">Home</a></li>
                                                     <li><a href="#">Catalogs</a></li>
                                                     <li><a href="#">FAQs</a></li>
@@ -111,12 +117,12 @@
                                     </div> <!-- /.row -->
                                 </div> <!-- /.container -->
                             </div> <!-- /.main-nav -->
-
                         </header>
+
 
 <body>
     <font color="#ddd">
-      <div class="container"
+      <div id="c1" class="container"
         <div class="h2">
             <h2><p>Sign up to dustbusters</p><h2>
             </div>

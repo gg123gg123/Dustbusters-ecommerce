@@ -123,14 +123,14 @@ session_start()
         ?>
             </div>
 
-            <footer class="footer">
-                <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">Terms and conditions</a><a class="footer-link" href="#">Privacy</a>
+            <footer id="footer" class="footer">
+                <div class="div-block-3"><a class="footer-link" href="footer-pages/guarentee.html"">Our Guarentee</a><a class="footer-link" href="#"">Terms and Conditions</a><a class="footer-link" href="#">Privacy Policy</a>
                 </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Sales reports</a><a class="footer-link" href="#">FAQ</a>
+                <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Delivery</a><a class="footer-link" href="#">FAQ</a>
                 </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Contact us</a>
+                <div class="div-block-3"><a class="footer-link" href="#">Returns</a><a class="footer-link" href="#">Repairs</a><a class="footer-link" href="contact.html">Contact Us</a>
                 </div>
-                <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
+                <div class="div-block-3"><a class="footer-link" href="https://twitter.com">Twitter</a><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a><a class="footer-link" href="https://www.facebook.com">Facebook</a>
                 </div>
                 <div class="div-block-3 extended">
                   <h3 class="footer-title">Newsletter</h3>
@@ -150,7 +150,7 @@ session_start()
                 <div class="footer-bottom">
 
                 </div>
-                <a class="dribbble-link" href="#" target="_blank"><img src="img/newlogo.png" width="55"></a>
+                <a class="dribbble-link" href="index.php" target="_blank"><img src="img/newlogo.png" width="55"></a>
               </footer>
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
               <script src="js/webflow.js" type="text/javascript"></script>
@@ -162,5 +162,9 @@ session_start()
                     <script src="js/bootstrap.js"></script>
                     <script src="js/plugins.js"></script>
                     <script src="js/main.js"></script>
-            </body>
+                    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
             </html>

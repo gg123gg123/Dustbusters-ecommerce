@@ -6,7 +6,9 @@
 
  <html class="no-js">
     <head>
-
+    <!--
+    Mixed style sheets
+    -->
         <meta charset="utf-8">
         <title> DustBusters - eCommerce Store</title>
 
@@ -16,9 +18,9 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
         <link rel="stylesheet" href="css/temp.css">
-        <html class="no-js"> <!--<![endif]-->
+        <html class="no-js">
         <head>
-
+  <link rel="stylesheet" href="css/slick-theme.scss">
             <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="css/normalize.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,19 +28,23 @@
             <link rel="stylesheet" href="css/templatemo-misc.css">
             <link rel="stylesheet" href="css/templatemo-style.css">
 
-            <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         </head>
+		<div class="skipnav"><a href="#description">Skip to main content</a> <a href="#footer">Skip to footer</a></div>
         <body>
 
 
-
             <header class="site-header">
+
                 <div class="top-header">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="top-header-left">
+
+							<div class="col-md-6 col-sm-6">
+
+
+								<div class="top-header-left">
+
                                     <a href="register.php">Sign Up</a>
                                     <a href="loginForm.php">Log In</a>
                                 </div> <!-- /.top-header-left -->
@@ -46,10 +52,10 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-dribbble"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                        <li><a href="#" aria-label="Facebook" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" aria-label="Github" class="fa fa-dribbble"></a></li>
+                                        <li><a href="#" aria-label="Twitter" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" aria-label="Linked in" class="fa fa-linkedin"></a></li>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div> <!-- /.social-icons -->
@@ -74,11 +80,12 @@
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">
-                                            <div class="main-menu">
-                                                <a href="#" class="toggle-menu">
-                                                    <i class="fa fa-bars"></i>
+                                            <div class="main-menu" >
+                                                <a href="#" onclick="myFunction()"aria-expanded="false" aria-label="menu ting" data-toggle="tab" id="toggle-menu" class="toggle-menu">
+                                                    <i id="toggle-menu" class="fa fa-bars"></i>
                                                 </a>
-                                                <ul class="menu">
+
+                                                <ul class="menu" >
                                                     <li><a href="#">Home</a></li>
                                                     <li><a href="#">Catalogs</a></li>
                                                     <li><a href="#">FAQs</a></li>
@@ -110,8 +117,8 @@
                                     </div> <!-- /.row -->
                                 </div> <!-- /.container -->
                             </div> <!-- /.main-nav -->
-
                         </header>
+
 <body>
   <font color="#ddd">
   <div class="main">
@@ -130,35 +137,48 @@
 
         <section></section>
 
-        		<footer class="footer-distributed">
+        <footer id="footer" class="footer">
+            <div class="div-block-3"><a class="footer-link" href="footer-pages/guarentee.html"">Our Guarentee</a><a class="footer-link" href="#"">Terms and Conditions</a><a class="footer-link" href="#">Privacy Policy</a>
+            </div>
+            <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Delivery</a><a class="footer-link" href="#">FAQ</a>
+            </div>
+            <div class="div-block-3"><a class="footer-link" href="#">Returns</a><a class="footer-link" href="#">Repairs</a><a class="footer-link" href="contact.html">Contact Us</a>
+            </div>
+            <div class="div-block-3"><a class="footer-link" href="https://twitter.com">Twitter</a><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a><a class="footer-link" href="https://www.facebook.com">Facebook</a>
+            </div>
+            <div class="div-block-3 extended">
+              <h3 class="footer-title">Newsletter</h3>
+              <div class="w-form">
+                <form class="form" data-name="Email Form" id="email-form" name="email-form">
+                  <input class="text-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Your e-mail" required="required" type="email">
+                  <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Send">
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
 
-        			<div class="footer-right">
+            </div>
+            <a class="dribbble-link" href="index.php" target="_blank"><img src="img/newlogo.png" width="55"></a>
+          </footer>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+          <script src="js/webflow.js" type="text/javascript"></script>
+          <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
-        				<a href="#"><i aria-label="facebook" class="fa fa-facebook"></i></a>
-        				<a href="#"><i aria-label="twitter" class="fa fa-twitter"></i></a>
-        				<a href="#"><i aria-label="linkedin" class="fa fa-linkedin"></i></a>
-        				<a href="#"><i aria-label="github" class="fa fa-github"></i></a>
-        			</div>
+                <script src="js/vendor/jquery-1.10.1.min.js"></script>
+                <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+                <script src="js/jquery.easing-1.3.js"></script>
+                <script src="js/bootstrap.js"></script>
+                <script src="js/plugins.js"></script>
+                <script src="js/main.js"></script>
+                <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
 
-        			<div class="footer-left">
 
-        				<p class="footer-links">
-        					<a class="link-1" href="#">Home</a>
-
-        					<a href="#">Blog</a>
-
-        					<a href="#">Pricing</a>
-
-        					<a href="#">About us</a>
-
-        					<a href="#">Faq</a>
-
-        					<a href="#">Contact us</a>
-        				</p>
-
-        				<p>DustBusters &copy; 2018</p>
-        			</div>
-
-        		</footer>
-          </body>
         </html>
