@@ -169,6 +169,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     loadingText: 'loading...'
   }
 
+  
   Button.prototype.setState = function (state) {
     var d    = 'disabled'
     var $el  = this.$element

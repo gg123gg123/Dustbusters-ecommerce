@@ -119,7 +119,7 @@
 
     <div align="center">
         <div class="description">
-            <p align="left">Hi, welcome to DustBusters A FAKE E-Commerce business commited to selling high quality vacuum cleaners. We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
+            <p align="left">Hi, welcome to DustBusters A sick E-Commerce business commited to selling high quality vacuum cleaners. We sell a wide range of vacuum cleaners to suit all of your needs, each of our vacuums come with a 1 year warrenty which includes parts and labour on top of our 30 day money back guarentee plus we will collect your old vacuum free of charge. We care about the planet and as such we ensure all excess packaging is recycled along with your old vacuum cleaner. </p>
 
             <p align="left">We sell vacuums on behalf of the industrys leading innovators including Dyson,Vax and &quot;Henry Hoover&quot;. Dustbusters is a family run business who have been operating for nearly 10 years, We pride ourselves on our reputatation and belive that customer satisfaction is key so if you have any questions regarding the products for sale on our website dont hesitate to contact our award winning customer support.</p>
 

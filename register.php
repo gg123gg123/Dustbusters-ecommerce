@@ -1,13 +1,15 @@
-
 <!DOCTYPE html>
 
 <html>
 
 
 
- <html class="no-js">
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-
+    <!--
+    Kool Store Template
+    http://www.templatemo.com/preview/templatemo_428_kool_store
+    -->
         <meta charset="utf-8">
         <title> DustBusters - eCommerce Store</title>
 
@@ -31,7 +33,9 @@
 
         </head>
         <body>
-
+            <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
 
 
             <header class="site-header">
@@ -111,7 +115,6 @@
                                     </div> <!-- /.row -->
                                 </div> <!-- /.container -->
                             </div> <!-- /.main-nav -->
-
                         </header>
 
 <body>

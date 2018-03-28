@@ -16,6 +16,7 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
   font-family: 'webflow-icons';
@@ -1694,7 +1695,7 @@ body {
   color: #FFF;
   font-size: 18px;
   line-height: 1.6em;
-  font-weight: 400;  
+  font-weight: 400;
 }
 p {
   margin-bottom: 10px;
