@@ -121,7 +121,7 @@
 
 
 <body>
-    <font color="#ddd">
+    <font color="#000">
       <div id="c1" class="container"
         <div class="h2">
             <h2><p>Sign up to dustbusters</p><h2>
