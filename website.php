@@ -39,9 +39,10 @@ function display_products() {
  $conn = connect();
     $query = "SELECT * FROM db_product";
     $results = mysqli_query($conn, $query);
-    echo "<table><thead align='left'><tr align='left'>
+    echo "<table>
+          <tr>
          <th>Product Name</th>
-         <th>Prodcut Description</th>
+         <th>Product Description</th>
          <th>Image</th>
          <th>Price</th>
          <th>Stock</th>

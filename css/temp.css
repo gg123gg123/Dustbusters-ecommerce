@@ -10,3 +10,47 @@
   float: right !important;
   border-bottom: 1px solid #dddddd;
 }
+
+#slider {
+	margin: 0px auto;
+	width:701px;
+	height:700px;
+	position:relative;
+}
+
+#slider img {
+	border:2px solid #ccc;
+	border-radius:7px;
+}
+
+
+#left_button {
+	width:60px;
+	height:45px;
+	margin: 5px 7px 0px 280px;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Didot;
+	position:relative;
+
+
+}
+
+#right_button {
+	width:60px;
+	height:45px;
+	margin: 5px 0px 0px 0px;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Didot;
+	position:relative;
+
+}
+
+.menu {
+  float:right;
+}
