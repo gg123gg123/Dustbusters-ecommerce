@@ -76,7 +76,7 @@
                                     <div class="row">
                                         <div class="col-md-4 col-sm-6 col-xs-8">
                                             <div class="logo">
-                                                <h2>Vacuum specalists</a></h2>
+                                                <h2>Vacuum Specalists</a></h2>
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">

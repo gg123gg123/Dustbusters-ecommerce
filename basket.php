@@ -73,7 +73,7 @@ session_start()
                                     <div class="row">
                                         <div class="col-md-4 col-sm-6 col-xs-8">
                                             <div class="logo">
-                                                <h2>Vacuum specalists</a></h2>
+                                                <h2>Vacuum Specalists</a></h2>
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">
@@ -99,9 +99,10 @@ session_start()
                                         <div class="col-md-6 col-sm-7">
                                             <div class="list-menu">
                                                 <ul>
-                                                    <li><a href="products.php">Shop</a></li>
-                                                    <li><a href="basket.php">My account</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                  <li><a href="index.php">Home</a></li>
+                                                  <li><a href="products.php">Shop</a></li>
+                                                  <li><a href="basket.php">My Account</a></li>
+                                                  <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div> <!-- /.list-menu -->
                                         </div> <!-- /.col-md-6 -->

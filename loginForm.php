@@ -2,8 +2,6 @@
 
 <html>
 
-
-
  <html class="no-js">
     <head>
     <!--
@@ -76,7 +74,7 @@
                                     <div class="row">
                                         <div class="col-md-4 col-sm-6 col-xs-8">
                                             <div class="logo">
-                                                <h2>Vacuum specalists</a></h2>
+                                              <h2>Vacuum Specalists</a></h2>
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">
@@ -103,9 +101,10 @@
                                         <div class="col-md-6 col-sm-7">
                                             <div class="list-menu">
                                                 <ul>
-                                                    <li><a href="products.php">Shop</a></li>
-                                                    <li><a href="basket.php">My account</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                  <li><a href="index.php">Home</a></li>
+                                                  <li><a href="products.php">Shop</a></li>
+                                                  <li><a href="basket.php">My Account</a></li>
+                                                  <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div> <!-- /.list-menu -->
                                         </div> <!-- /.col-md-6 -->
@@ -120,20 +119,20 @@
                         </header>
 
 <body>
-  <font color="#ddd">
-  <div class="main">
-      <div class="register">
-            <h2><p>
-               Login to your DustBusters account </p><h2>
-               </div>
-               <form action="reg.php" method="post">
-                 <font color="#000">
-                 <div class="register">
-            <p><label>Email address:</label><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
-                <p><label>Password:</label><input type="password" name="password" id="password"></p>
+
+
+
+            <h2 style="margin-left:50px;">Login</h2>
+
+               <form action="login.php" method="post">
+                <p><label>Email Address:</label>
+                <input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
+                <p><label>Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label><input type="password" name="password" id="password"></p>
                 <p><input type="submit" id="btn2" value="Login"/></p>
             </form>
-        </div>
+
+        <br /> </br />
 
         <section></section>
 

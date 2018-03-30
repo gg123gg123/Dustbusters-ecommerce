@@ -1,6 +1,5 @@
 
 html,
-button,
 input,
 select,
 textarea {
@@ -121,7 +120,7 @@ form input[type="password"] {
   background: #fff;
   border: 1px solid #fff;
   padding: 7px 10px;
-  width: 60%;
+  width: 80%;
 }
 form input[type="text"]:focus,
 form input[type="email"]:focus,
@@ -391,10 +390,10 @@ h6 {
 .main-nav .list-menu ul li {
   display: inline-block;
   padding: 20px 30px;
-  border-left: 1px solid #3598db;
+
 }
 .main-nav .list-menu ul li:last-child {
-  border-right: 1px solid #3598db;
+
 }
 .main-nav .list-menu ul li a {
   font-size: 16px;
@@ -852,7 +851,7 @@ ul.follow-us li a i {
   border: 0;
   height: 38px;
   padding: 0 10px;
-  width: 64%;
+  width: 60%;
 }
  input[type=submit] {
   width: auto;
@@ -983,4 +982,11 @@ ul.follow-us li a i {
   .product-item-2 .product-content p {
     display: none;
   }
+
+  #reset {
+    width:30%;
+  }
+
+
+
 }

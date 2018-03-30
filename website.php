@@ -39,24 +39,16 @@ function display_products() {
  $conn = connect();
     $query = "SELECT * FROM db_product";
     $results = mysqli_query($conn, $query);
-    echo "<table>
-          <tr>
-         <th>Product Name</th>
-         <th>Product Description</th>
-         <th>Image</th>
-         <th>Price</th>
-         <th>Stock</th>
-         <th>Order</th>
-         </tr>
-        <font color=#ddd>";
+    echo "<table><thead align='left'><tr align='left'>";
     while ( $row = mysqli_fetch_array($results) )
     { echo "<tr align='left'>
-       <td align='left'>$row[name]</td>
-       <td align='left'>$row[description]</td>
-       <td><img src='$row[imagepath]' width='250px' height='250px'/></td>
-       <td>$row[price]</td>
-       <td>$row[stock]</td>
-       <td>
+
+        <td><br/><br/><img src='$row[imagepath]' width='250px' height='250px'/></td>
+       <td><h2>$row[name]</h2>
+       <h5>$row[description]</h5>
+       <h5>£$row[price]</h5>
+      <h5>Stock Level: $row[stock]</h5>
+
        <form action='cart.php' method='post'>
 <input type='submit' value='Add to basket' name='$row[pid]' />
             </form>
@@ -86,38 +78,51 @@ function display_basket(){
         echo "<p>Your basket is empty.</p>";
         return;
     }
-    echo "<table><tr>
-        <th>Product Name</th>
-        <th>Quantity</th>
-        <th>Price</th>
-        <th>Subtotal</th>
-        </tr>";
+    echo "  <div style='margin-left:60px;'>
+
+        <h5>Product Name &nbsp; &nbsp; &nbsp; &nbsp;
+                         &nbsp; &nbsp; &nbsp; &nbsp;
+                         &nbsp; &nbsp; &nbsp; &nbsp;
+            Quantity &nbsp; &nbsp; &nbsp; &nbsp;
+                     &nbsp; &nbsp; &nbsp; &nbsp;
+                     &nbsp; &nbsp; &nbsp; &nbsp;
+            Price &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; Subtotal &nbsp; &nbsp; &nbsp; &nbsp; </h5>
+        </div>  ";
     $conn = connect();
     $total = 0;
     foreach ($_SESSION["basket"] as $key=>$value) {
         $query = "SELECT name, price FROM db_product WHERE pid=$key";
         $result = mysqli_query($conn, $query);
         $row = mysqli_fetch_array($result);
-        echo "<tr>
-            <td>$row[name]</td>
-            <td>$value</td>
-            <td>$row[price]</td>
-            <td>". number_format($value*$row['price'], 2, '.', '')."</td>
-            <td><form action='remove.php?pid=".$key."' method='post'><input type='submit' value='Remove' /></form></td>
-            </tr>";
+        echo "<div style='margin-left:60px;'>
+            <h5>$row[name]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              $value &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                       &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                £$row[price] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                             &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                £". number_format($value*$row['price'], 2, '.', '')."
+                <br /><br /><br />
+            <form action='remove.php?pid=".$key."' method='post'><input type='submit' value='Remove' /></form>
+
+            </div>
+            </h5>
+
+            ";
         $total = $total + $value*$row['price'];
     }
-    echo "</table>";
     mysqli_close($conn);
-    echo "<table><tr>
-        <th>Total</th>
-        <th>Order</th>
-        </tr>
-        <tr>
-        <td>". number_format($total, 2, '.', '') ."</td>
-        <td><form action='order.php' method='post'><input type='submit' value='Order' /></form></td>
-        </tr>
-        </table>";
+    echo "
+        <br /><br /><br />
+        <div style='margin-left:60px;'>
+        <h5>Total: &nbsp;&nbsp;&nbsp;
+
+
+        £". number_format($total, 2, '.', '') ." </h5>
+        <h5><form action='order.php' method='post'><input type='submit' value='Order' /></form></h5>";
 }
 function order(){
     session_start();

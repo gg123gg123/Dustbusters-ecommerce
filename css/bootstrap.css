@@ -2135,7 +2135,7 @@ footer-link {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  background-color: #ec2a3f;
+  background-color: #2a80b9;;
 }
 
 .nasa-logo {
@@ -4135,7 +4135,7 @@ fieldset {
   border: 0;
 }
 #boxting{
-  width: 100%;
+  width: 60%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;

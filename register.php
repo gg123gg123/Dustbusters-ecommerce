@@ -76,7 +76,7 @@
                                     <div class="row">
                                         <div class="col-md-4 col-sm-6 col-xs-8">
                                             <div class="logo">
-                                                <h2>Vacuum specalists</a></h2>
+                                                <h2>Vacuum Specalists</a></h2>
                                             </div> <!-- /.logo -->
                                         </div> <!-- /.col-md-4 -->
                                         <div class="col-md-8 col-sm-6 col-xs-4">
@@ -103,9 +103,10 @@
                                         <div class="col-md-6 col-sm-7">
                                             <div class="list-menu">
                                                 <ul>
-                                                    <li><a href="products.php">Shop</a></li>
-                                                    <li><a href="basket.php">My account</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                  <li><a href="index.php">Home</a></li>
+                                                  <li><a href="products.php">Shop</a></li>
+                                                  <li><a href="basket.php">My Account</a></li>
+                                                  <li><a href="contact.html">Contact</a></li>
                                                 </ul>
                                             </div> <!-- /.list-menu -->
                                         </div> <!-- /.col-md-6 -->
@@ -122,33 +123,31 @@
 
 <body>
     <font color="#000">
-      <div id="c1" class="container"
+      <div class="container">
         <div class="h2">
-            <h2><p>Sign up to dustbusters</p><h2>
+            <h2>Sign Up to Dustbusters</h2>
             </div>
         <form action="reg.php" method="post">
           <font color="#000">
-          <div class="register">
+
             <p><label>Email:</label><br /><input type="email" required="" aria-required="true" aria-invalid="true" name="email"/></p>
             <p><label>First Name:</label><br /><input type="text" name="fname"/></p>
             <p><label>Surname:</label> <br /><input type="text" name="sname"/> </p>
             <p><label>Post Code:</label><br /> <input type="text" name="pcode"/></p>
             <p><label>Password:</label><br />
-<input type="password" name="password" id="password"></p></div>
-
-              <div class="subbtn">
- <p><input id="btn" type="submit"  value="Register" /></p>
+            <input type="password" name="password" id="password"></p>
+             <p><input id="btn" type="submit"  value="Register" /></p>
         </form>
-        </div>
 </div>
-<footer class="footer">
-    <div class="div-block-3"><a class="footer-link" href="#">No fear act</a><a class="footer-link" href="#">Terms and conditions</a><a class="footer-link" href="#">Privacy</a>
+<br />
+<footer id="footer" class="footer">
+    <div class="div-block-3"><a class="footer-link" href="footer-pages/guarentee.html"">Our Guarentee</a><a class="footer-link" href="#"">Terms and Conditions</a><a class="footer-link" href="#">Privacy Policy</a>
     </div>
-    <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Sales reports</a><a class="footer-link" href="#">FAQ</a>
+    <div class="div-block-3"><a class="footer-link" href="#">Office of Dustbusters</a><a class="footer-link" href="#">Delivery</a><a class="footer-link" href="#">FAQ</a>
     </div>
-    <div class="div-block-3"><a class="footer-link" href="#">Articles</a><a class="footer-link" href="#">Photos &amp; Videos</a><a class="footer-link" href="#">Contact us</a>
+    <div class="div-block-3"><a class="footer-link" href="#">Returns</a><a class="footer-link" href="#">Repairs</a><a class="footer-link" href="contact.html">Contact Us</a>
     </div>
-    <div class="div-block-3"><a class="footer-link" href="#">Twitter</a><a class="footer-link" href="#">Instagram</a><a class="footer-link" href="#">Facebook</a>
+    <div class="div-block-3"><a class="footer-link" href="https://twitter.com">Twitter</a><a class="footer-link" href="https://www.instagram.com/?hl=en">Instagram</a><a class="footer-link" href="https://www.facebook.com">Facebook</a>
     </div>
     <div class="div-block-3 extended">
       <h3 class="footer-title">Newsletter</h3>
