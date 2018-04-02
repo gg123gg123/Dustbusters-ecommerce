@@ -50,7 +50,7 @@ function display_products() {
       <h5>Stock Level: $row[stock]</h5>
 
        <form action='cart.php' method='post'>
-<input type='submit' value='Add to basket' name='$row[pid]' />
+<input type='submit' id='basket_add' value='Add to basket' name='$row[pid]' />
             </form>
 
             </td>
@@ -122,7 +122,7 @@ function display_basket(){
 
 
         £". number_format($total, 2, '.', '') ." </h5>
-        <h5><form action='order.php' method='post'><input type='submit' value='Order' /></form></h5>";
+        <h5><form action='order.php' method='post'><input type='submit' id='order_now' value='Order' /></form></h5>";
 }
 function order(){
     session_start();
