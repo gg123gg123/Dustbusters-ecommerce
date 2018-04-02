@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="css/temp.css">
         <html class="no-js">
         <head>
-  <link rel="stylesheet" href="css/slick-theme.scss">
+            <link rel="stylesheet" href="css/slick-theme.scss">
             <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="css/normalize.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -181,8 +181,8 @@
                   <script src="js/plugins.js"></script>
                   <script src="js/main.js"></script>
                   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
+                  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                  <script type="text/javascript" src="slick/slick.min.js"></script>
 
 
           </html>
