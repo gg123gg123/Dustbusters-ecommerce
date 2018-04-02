@@ -75,7 +75,7 @@ function add_to_basket($pid){
 }
 function display_basket(){
     if ( !isset($_SESSION["basket"]) ){
-        echo "<p>Your basket is empty.</p>";
+        echo "<h3 style=margin-left:55px;>Your basket is empty.</h3>";
         return;
     }
     echo "  <div style='margin-left:60px;'>
