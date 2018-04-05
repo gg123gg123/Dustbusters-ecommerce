@@ -130,7 +130,7 @@ function order(){
         $msg = "You must be registered and logged in to order items";
         echo "<script type='text/javascript'>
             alert('$msg');
-            window.location = 'register.php';
+            window.location = 'basket.php';
             </script>
             ";
     }
