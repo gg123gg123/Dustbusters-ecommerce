@@ -789,8 +789,9 @@ function myFunction() {
   document.getElementById("toggle-menu").setAttribute("aria-expanded", x);
   document.getElementById("toggle-menu").innerHTML = "aria-expanded =" + x;
   }
+}
 
-} // end toggleRegion()
+// end toggleRegion()
 
 /* ========================================================================
  * Bootstrap: modal.js v3.1.1

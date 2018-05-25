@@ -17,7 +17,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
         <link rel="stylesheet" href="css/temp.css">
         <html class="no-js"> <!--<![endif]-->
